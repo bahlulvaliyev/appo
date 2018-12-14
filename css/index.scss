@@ -99,7 +99,7 @@ header{
         text-align:center;
         margin-right: 20px;
         width: 23%;
-        box-shadow: 1px 1.73px 5px rgba(219, 208, 208, 0.);
+        box-shadow: 1px 1.73px 5px rgba(219, 208, 208, 0.1);
         img{
             margin-top: 40px;
         }
@@ -121,8 +121,8 @@ header{
 }
 /*Four section*/
 .four_section{
-    background: #223047;
     .empty_side{
-        height: 500px;
+        background: #223047;
+        height: 400px;
     }
 }
