@@ -173,6 +173,9 @@
 }
 
 @media only screen and (max-width: 575.99px) {
+  body {
+    overflow-x: hidden;
+  }
   header .header_resp {
     font-size: 10px;
   }
@@ -203,6 +206,15 @@
   }
   .explain_section .explain_section_text p {
     width: 90%;
+  }
+  .first_footer .first_footer_count {
+    width: 100%;
+  }
+  .first_footer .first_footer_count .button_count {
+    width: 60%;
+  }
+  .first_footer .first_footer_count .button_button {
+    padding: 0;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
