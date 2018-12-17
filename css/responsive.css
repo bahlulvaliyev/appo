@@ -179,6 +179,27 @@
   header .header_resp {
     font-size: 10px;
   }
+  header .header_resp .header_resp_div {
+    position: unset;
+    min-height: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  header .header_resp .header_resp_div ul li {
+    padding: 0px 5px;
+  }
+  header .header_resp .header_resp_div_1 {
+    position: unset;
+    min-height: unset;
+    padding-right: unset;
+    padding-left: unset;
+  }
+  .first_section .container .row .first_sec_rep_div {
+    width: 100%;
+  }
+  .first_section .container .row .first_sec_rep_div .frs_sec .frs_sec_button {
+    width: 100%;
+  }
   .thrice_section {
     display: none;
   }
@@ -194,12 +215,25 @@
   .first_footer .row .col-md-2 {
     width: 20%;
   }
+  .first_footer .row .col-md-2 h4 {
+    font-size: 11px;
+  }
+  .first_footer .row .col-md-2 ul li {
+    font-size: 11px;
+  }
+  .last_footer .row {
+    display: inline-block;
+  }
   .last_footer .row .col-md-4 {
     padding-right: 0;
     padding-left: 0;
   }
   .last_footer .row .col-md-4 p {
-    font-size: 8px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .last_footer .row .col-md-8 ul {
+    padding-left: 0px;
   }
   .player_section .player_section_pharagraph p {
     width: 90%;
@@ -207,14 +241,18 @@
   .explain_section .explain_section_text p {
     width: 90%;
   }
-  .first_footer .first_footer_count {
+  .store_link .store_link_download .store_link_download_Get {
+    left: 20%;
+  }
+  .first_footer .container .row .first_footer_count {
     width: 100%;
   }
-  .first_footer .first_footer_count .button_count {
+  .first_footer .container .row .first_footer_count .button_count {
     width: 60%;
   }
-  .first_footer .first_footer_count .button_button {
+  .first_footer .container .row .first_footer_count .button_button {
     padding: 0;
+    width: 30%;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
